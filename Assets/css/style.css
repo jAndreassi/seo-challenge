@@ -8,6 +8,10 @@ body {
   background-color: #d9dcd6;
 }
 
+p {
+  font-size: 16px;
+}
+
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -88,10 +92,6 @@ a {
 .float-left {
   float: left;
   margin-right: 25px;
-}
-
-p {
-  font-size: 16px;
 }
 
 .float-right {
