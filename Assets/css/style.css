@@ -47,9 +47,6 @@ a {
   text-decoration: none;
 }
 
-p {
-  font-size: 16px;
-}
 /* googled how to alt text a background image and found this so didnt make any changes. Do you need alt tag for background image? */
 /* Dividers and background images are common examples. Therefore, purely decorative graphics don't need alt text because they don't add value and could even confuse or clutter the screen reader experience. Read 8 Common Image Alt Text Mistakes to Stop Making to learn more. */
 
@@ -62,20 +59,44 @@ p {
   background-position: center;
 }
 
+.contents {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* all have identical features, turned into one class */
+.options {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+/* combined max height from 3 different to 1 */
+.options img {
+  max-height: 200px;
+}
+/* combined max height from 3 different to 1 */
+.options h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
 .float-left {
   float: left;
   margin-right: 25px;
 }
 
+p {
+  font-size: 16px;
+}
+
 .float-right {
   float: right;
   margin-left: 25px;
-}
-
-.contents {
-  width: 75%;
-  display: inline-block;
-  margin-left: 20px;
 }
 
 aside {
@@ -88,6 +109,7 @@ aside {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #2589bd;
 }
+
 /* combined 3 into 1 */
 .benefits {
   margin-bottom: 32px;
@@ -103,25 +125,6 @@ aside {
   display: block;
   margin: 10px auto;
   max-width: 150px;
-}
-
-/* all have identical features, turned into one class */
-.options {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-/* combined max height from 3 different to 1 */
-.options img {
-  max-height: 200px;
-}
-/* combined max height from 3 different to 1 */
-.options h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
 }
 
 footer {
