@@ -19,7 +19,7 @@ Change structure of html and css code to find a more logical structure
 ## Usage
 Website can be viewed at https://jandreassi.github.io/seo-challenge/
 
-<img src="./Assets/images/HoriseonWebPages" alt="Horiseon WebPage"/>
+<img src="Assets/images/HoriseonWebPages" alt="Horiseon WebPage"/>
 
 ## Credits
 
