@@ -22,7 +22,7 @@ body {
 }
 /* changed color more a bigger contrast */
 .header h1 .seo {
-  color: grey;
+  color: rgb(105, 105, 105);
 }
 
 .header nav {
